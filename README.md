@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <HTML>
     <HEAD>
         <meta charset="utf-8">
         <TITLE> VISHWA CTF</TITLE>
     </HEAD>
     
-    <BODY>
-        <h1><strong>VISHWA CTF</strong></h1>
+    <BODY> -->
+        <h1><strong>VISHWA CTF</strong></h1> 
         <img src="vishwa_ctf.jpg">
         
         
@@ -51,5 +51,5 @@
             Ph No : 8793068059
         </address>
         <br />
-    </BODY>
-</HTML>
+<!--    </BODY>
+</HTML> -->
