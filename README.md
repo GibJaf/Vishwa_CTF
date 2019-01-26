@@ -10,14 +10,14 @@
 
 
 <br />
-        <h3>Rules</h3>
-        <p> There are no rules in the world of Hacking .<br />
-            You are most welcome to cheat as much as you can</p>
+<h3>Rules</h3>
+<p> There are no rules in the world of Hacking .<br />
+    You are most welcome to cheat as much as you can</p>
 
-        <br />
-        <h3> Judging Criteria</h3>
-        <p> The person to solve series of tasks and gain remote shell
-            on victim machine the fastest wins !</p>
+<br />
+<h3> Judging Criteria</h3>
+<p> The person to solve series of tasks and gain remote shell
+    on victim machine the fastest wins !</p>
 
 
 
