@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+    <title>LOGIN</title>
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <!--<body onkeydown="return (event.keyCode != 116)">-->
+        <body background = "7.jpg">
+            
+            <!--<img src="5.gif" alt="backgound" class="bg"/>-->
+            <!--<div class="content"><h1 ><font color="Red">Welcome</font></h1></div>-->
+            <div class="ex2wel"><center>Welcome to</center></div>
+            <div class="ex2ctf"><center>VishwaCTF</center></div>
+            
+            <br><br>
+            <div class="ex1" id = "para1">       
+                <button class="button" style="vertical-align:middle" onclick = "myFunction('q')"><span>Question 1 </span></button>
+                <div class="ques" id ="q">
+                    Rohit<br><br>
+                    <center>Enter Flag :  - <input type="textbox" size = "60"><br><br>
+                    <button type="button" class="submitbut">Submit</button></center>
+                </div>
+                <br><br>
+            </div>
+            
+            <div class="ex1" id = "para2">       
+                <button class="button" style="vertical-align:middle" onclick = "myFunction('r')"><span>Question 2 </span></button>
+                <div class="ques" id ="r">
+                    Shaw<br><br>
+                    <center>Enter Flag :  - <input type="textbox" size = "60"><br><br>
+                    <button type="button" class="submitbut">Submit</button></center>
+                </div>
+                <br><br>
+            </div>
+            
+            
+            
+            
+            <script>
+                // var myarr={"R","o","h","i","t"};
+                //var y = Math.floor(Math.random()*30)
+                function myFunction(obj) 
+                {
+                    var x = document.getElementById(obj);
+                    if (x.style.display === "none") 
+                    {
+                        x.style.display = "block";
+                        x.innerHTML = (y);
+                    } 
+                    else 
+                    {
+                        x.style.display = "none";
+                    }
+                
+                    /*var y = Math.floor(Math.random()*(myarr.length));
+                    var c = myarr[y];
+                    document.getElementById("q").innerHTML = "Question " +y;*/
+                }
+            </script>
+        </body>
+    </head>
