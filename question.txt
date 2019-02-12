@@ -1,0 +1,9 @@
+1.There are so many different ways of encoding and decoding information nowadays... One of them will work! Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9
+        hint-Whats 2 to the power 6.
+2.Meet ROXy, a coder obsessed with being exclusively the worlds best hacker. She specializes in short cryptic hard to decipher secret codes. The below hex values for example, she did something with them to generate a secret code, can you figure out what? Your answer should start with 0x. 0xc4115 0x4cf8
+ HINTS=XOR
+3. Think the flag is somewhere in there. Would you help me find it?
+4. Just take the Ls. Check out this zip file and I be the flag will remain hidden.
+5. Try inputting the flag: flag{<Whatever a flag would be>}
+6. Can you help me? I need to know how many lines there are where the number of 0's is a multiple of 3 or the numbers of 1s is a multiple of 2.
+
