@@ -1,0 +1,104 @@
+.transbox {
+  margin: 30px;
+  background-color: black;
+  border: 5px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#b1
+{
+    /*background-image: url("cyber.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+@font-face {
+font-family: "Nightmare Codehack";
+src: url("Nightmare Codehack.otf");
+}
+
+@font-face {
+font-family: "abc";
+src: url("Aerolite.otf");
+}
+
+@font-face {
+font-family: "new";
+src: url("Freakshow.otf");
+}
+
+@font-face {
+font-family: "cb";
+src: url("CocoBiker.ttf");
+}
+
+.ex2wel
+{
+    text-decoration:inherit;
+    text-decoration-color: blue;
+    font-family: "Nightmare Codehack";
+    color: darkgreen;
+    letter-spacing: 10px;
+    font-size: 70px;
+    
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.abc {
+    list-style: none;
+    padding-left: 30;
+}
+.abc li {
+    position: relative;
+    padding-left: 50px;
+    color: white;
+    text-decoration:inherit;
+    font-family: "abc";
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-shadow: 0 0 5px #49FF18;
+}
+.abc li:before {
+    content: '  ';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url('new.png');
+    box-shadow: 0 0 8px #FFF,0 0 30px #49FF18;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+	
+.begin
+{
+    text-align: center;
+}
+
+.button
+{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    background-color: black;
+    border: 2px solid #49FF18;
+    color: white;
+    font-size: 30px;
+    box-shadow:  0 0 8px #FFF,0 0 3px #49FF18;
+    padding: 10px 20px;
+    font-family: "cb";
+    text-shadow: 0 0 3px #49FF18;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover
+{
+    background: white;
+    color: black;
+}
