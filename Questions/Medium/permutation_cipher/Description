@@ -1,0 +1,5 @@
+Consider the CFB mode of operation where the block cipher is permutation cipher and
+the key is a permutation [ 1 2 3 4 ]
+                         [ 3 4 2 1 ]   <= is a 2x4 matrix .
+If the initial vector is taken as 1010 then compute the ciphertext corresponding
+to the plaintext 010010111100 .
