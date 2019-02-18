@@ -1,1 +1,5 @@
+First of get the very popular rockyou.txt from remote server @ IP _._._._ : port
+Use ftp or scp
+
 Count number of lines from rockyou.txt starting with character 'a'
+Flag format vishwaCTF{__content__}
