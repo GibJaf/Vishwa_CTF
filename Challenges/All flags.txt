@@ -1,0 +1,10 @@
+VishwaCTF{You_60T_1T_N11GG@} - Challenge 1
+
+VishwaCTF{W3ll_D0n3_bo1} - Challenge 2
+
+VishwaCTF{Se3ms_L1k3_pr0_m0de_0n} - Challege 3
+
+VishwaCTF{Y0u_@r3_pwn1ng_harD_boi} - Challenge 4
+
+VishwaCTF{S0_F@r_th1s_is_R3ally_L@m3} - Flag in source code !
+
