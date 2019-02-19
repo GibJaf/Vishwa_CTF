@@ -1,0 +1,188 @@
+/*img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 5;
+}
+
+.content 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+body {
+   transform: scale(1);
+   transform-origin: 0 0;
+   // add prefixed versions too.
+}
+
+@font-face {
+font-family: "Nightmare Codehack";
+src: url("Nightmare Codehack.otf");
+}
+
+.ex1
+{
+    outline: 5px groove rgba(28,110,164,0.2);
+    outline-offset: 0px;
+}
+
+.ques
+{
+    font-family: "Cosmic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 50px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    color: floralwhite;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: none;
+}
+
+
+
+.ex2wel
+{
+    text-decoration:inherit;
+    text-decoration-color: blue;
+    font-family: "Nightmare Codehack";
+    color: dodgerblue;
+    letter-spacing: 10px;
+    font-size: 60px;
+    
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.ex2ctf
+{
+  text-decoration:inherit;
+    text-decoration-color: blue;
+    font-family: "Nightmare Codehack";
+    color: dodgerblue;
+    letter-spacing: 20px;
+    font-size: 80px;
+    
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.tb1
+{
+    background-color: transparent;
+    height: 30px;
+    border-color: azure;
+    border-width: medium;
+    color: white;
+}
+
+.button {
+  display: inline-block;
+  	-moz-box-shadow: 6px 9px 11px -1px #8a2a21;
+	-webkit-box-shadow: 6px 9px 11px -1px #8a2a21;
+	box-shadow: 6px 9px 11px -1px #caefab;
+	background-color:transparent;
+    	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+  color:floralwhite;
+  text-align: left;
+    text-decoration-style:dashed;
+  font-size: 24px;
+  padding: 20px 50px;
+  width: 100%;
+  transition:  0.5s;
+  cursor: pointer;
+  margin: 5px;
+        z-index: 9999;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+        z-index: 9999;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 100%;
+  transition: 0.5s;
+        z-index: 9999;
+}
+
+.button:hover span {
+  padding-right: 50px;
+        z-index: 9999;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+        z-index: 9999;
+}
+
+
+
+
+
+.submitbut {
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background-color:transparent;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:8px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.submitbut:hover {
+	background-color:transparent;
+}
+.submitbut:active {
+	position:relative;
+	top:1px;
+}
