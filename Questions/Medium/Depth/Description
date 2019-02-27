@@ -1,0 +1,4 @@
+You need to make folder Dir1 and inside that Dir2
+and inside that Dir3 and inside that Dir3 ....... Dir100
+
+On doing above task . Execute check_depth.py for the flag to be revealed .
