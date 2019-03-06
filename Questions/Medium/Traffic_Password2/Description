@@ -1,0 +1,9 @@
+Harshad Mathur has a back in one of the subjects in previous semester.
+He has applied for a revaluation . However he has forgotten the login
+username and password for the SPPU website . Help him retrieve them from
+the following Reval_Apply.pcapng file .
+
+Note : This pcapng file is damaged and cannot be opened using wireshark 
+
+
+Submit your flag in this format : vishwaCTF{<username>:<password>}

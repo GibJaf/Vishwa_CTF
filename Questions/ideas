@@ -1,0 +1,8 @@
+1) flag is salt of all users having sha-512
+
+2) ssh into remote computer and retrieve flag from history
+
+3) ssh into remote computer and retrieve flag from 
+	/NetworkManager/system-connections and 
+
+4) 
